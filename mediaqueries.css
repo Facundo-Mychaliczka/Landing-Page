@@ -85,6 +85,11 @@
 
     /* FOOTER */
 
+
+    .footer-container {
+        gap: 60px 60px;
+
+    }
     .footer {
         display: flex;
         flex-direction: column;
