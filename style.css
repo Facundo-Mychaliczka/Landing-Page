@@ -217,5 +217,16 @@
     color: black;
   }
 
+  .img-container {
+   display: flex;
+   gap: 15px;
+   padding-top: 15px;
+  }
+
+  .img-footer {
+    max-width: 40px;
+    
+  }
+
 
   
