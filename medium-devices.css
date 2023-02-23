@@ -1,9 +1,8 @@
-/* Tablet */
+@media (max-width: 991px) {
 
-@media (max-width: 992px) {
     .logo {
-        height: 33px;
-        width: 160px;
+        height: 40px;
+        width: 200px;
     }
     .navbar {
         gap: 5px;
@@ -108,8 +107,7 @@
         display: flex;
     }
 
-    /* hero*/
-
+    /* HERO */
     .hero-presentation {
         width: 100%;
         text-align: center;
@@ -142,7 +140,7 @@
     #hero img {
         display: none;
     }
-/* ABOUT */
+    /* ABOUT */
 
 .ubicacion1 {
     display: none;
@@ -172,6 +170,4 @@
         font-size: 12px;
         align-items: center;
     } 
-
-    
 }

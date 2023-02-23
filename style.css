@@ -198,6 +198,7 @@
     background: var(--boxes);
     justify-content: center;
     border-radius: 2rem;
+    max-width: 1008px;
   }
 
   .product-box {
