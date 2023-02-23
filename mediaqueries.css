@@ -76,6 +76,7 @@
         height: 33px;
         margin-top: 4px;
         margin-bottom: 2px;
+        cursor: pointer;
     }
 
     .login-nav{
@@ -128,15 +129,21 @@
         max-width: 600px;
     }
 
+    .hero-presentation img {
+        display: none;
+    }
+
     .botones {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
     }
 
-    .hero img {
+    #hero img {
         display: none;
     }
+/* ABOUT */
+
 
 
     /* PRODUCTS */
