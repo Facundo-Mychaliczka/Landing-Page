@@ -70,6 +70,17 @@
     cursor: pointer;
   }
 
+  #login-toggle,
+  .login-icon,
+  .login-nav{
+    display: none;
+  }
+
+  .login-pc {
+    height: 30px;
+    cursor: pointer;
+  }
+
   /* OCULTAR HAMBURGUESA Y CHECKBOX */
 
   #menu-toggle,

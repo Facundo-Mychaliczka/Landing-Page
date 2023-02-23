@@ -1,8 +1,12 @@
 /* Tablet */
 
 @media (max-width: 992px) {
+    .logo {
+        height: 33px;
+        width: 160px;
+    }
     .navbar {
-        gap: 10px;
+        gap: 5px;
     }
 
     .cart-icon {
@@ -43,8 +47,27 @@
     #menu-toggle:checked + 
     .navbar-list {
         display: flex;
+    }
+/* MENÚ LOG-IN */
 
-        
+    .login-pc {
+        display: none;
+    }
+
+    .iconos {
+        display: flex;
+    }
+
+    .login-icon {
+        height: 33px;
+        margin-top: 4px;
+        margin-bottom: 2px;
+    }
+
+    .login-icon,
+    #login-toggle:checked +
+    .login-nav {
+        display: flex;
     }
 
     /* hero*/
