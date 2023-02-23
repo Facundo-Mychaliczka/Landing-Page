@@ -144,7 +144,9 @@
     }
 /* ABOUT */
 
-
+.ubicacion1 {
+    display: none;
+}
 
     /* PRODUCTS */
     .products-container {

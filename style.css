@@ -181,6 +181,10 @@
     border-radius: 2rem;
   }
 
+  .ubicacion2 {
+    display: none;
+  }
+
   
 
   /* PRODUCTS */
