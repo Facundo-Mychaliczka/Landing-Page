@@ -19,6 +19,10 @@
     /* MENÚ HAMBURGUESA NAVBAR */
 
     .navbar-list {
+        display: none;
+    }
+
+    .navbar-list-cel {
         position: absolute;
         top: 46px;
         left: 5%;
@@ -43,8 +47,9 @@
         margin-bottom: 2px;
     }
 
-    .navbar-list a {
+    .navbar-list-cel a {
         font-size: 18px;
+        color: black;
     }
 
     .menu-label {
@@ -53,7 +58,7 @@
     }
 
     #menu-toggle:checked + 
-    .navbar-list {
+    .navbar-list-cel {
         display: flex;
     }
 /* MENÚ LOG-IN */
@@ -64,6 +69,7 @@
 
     .iconos {
         display: flex;
+        gap: 5px;
     }
 
     .login-icon {
