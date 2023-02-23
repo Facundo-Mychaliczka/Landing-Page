@@ -16,6 +16,8 @@
         margin-bottom: 2px;
     }
 
+    /* MENÚ HAMBURGUESA NAVBAR */
+
     .navbar-list {
         position: absolute;
         top: 46px;
@@ -33,6 +35,12 @@
         z-index: 2;
         display: none;
         align-items: center;
+    }
+
+    .menu-icon {
+        height: 33px;
+        margin-top: 4px;
+        margin-bottom: 2px;
     }
 
     .navbar-list a {
