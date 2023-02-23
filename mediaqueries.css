@@ -148,6 +148,10 @@
     display: none;
 }
 
+.ubicacion2 {
+    display: flex;
+}
+
     /* PRODUCTS */
     .products-container {
         display: flex;
