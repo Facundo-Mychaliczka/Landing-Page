@@ -109,7 +109,7 @@
   }
   /* Hero  */
 
-  .hero {
+  #hero {
     display: flex;
     margin-top: 65px;
     width: 90%;
@@ -211,7 +211,7 @@
 
   /* FOOTER */
 
-  .footer-container {
+  #footer-container {
     background-color: gray;
     padding: 60px 100px;
   }
