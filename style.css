@@ -105,7 +105,7 @@
     /* alineacion  */
     align-items: center;
     justify-content: center;
-    width: 100;
+    width: 100%;
   }
   /* Hero  */
 
@@ -191,6 +191,7 @@
 
   .products-container {
     display: flex;
+    flex-wrap: wrap;
     margin: 30px;
     padding: 50px;
     align-content: space-between;
@@ -198,7 +199,6 @@
     background: var(--boxes);
     justify-content: center;
     border-radius: 2rem;
-    max-width: 1008px;
   }
 
   .product-box {
@@ -225,6 +225,8 @@
   .bottom {
     color: black;
   }
+
+
 
 
   /* FOOTER */

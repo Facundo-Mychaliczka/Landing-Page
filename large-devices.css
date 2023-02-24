@@ -1,5 +1,6 @@
-@media (max-width: 199px) {
+@media (min-width: 992px) {
     .products-container {
-        width: 1008px;
+        width: 700px;
+        gap: 60px;
     }
 }
