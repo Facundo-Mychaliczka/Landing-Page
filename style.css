@@ -266,5 +266,44 @@
     
   }
 
+  /* ANIMACIONES */
+
+  /* LOGO NAVBAR  */
+
+  .logo {
+    animation-name: palpitacion;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes palpitacion {
+    
+
+    50% {
+      scale: 1.05;
+    }
+  }
+
+  /* BOTONES HERO  */
+
+.boton {
+    transition: 0.5s;
+  }
+
+  .boton:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+
+  /* IMAGENES DE PRODUCTOS  */
+
+  .top {
+    transition: 0.5s;
+  }
+
+  .top:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
 
   
