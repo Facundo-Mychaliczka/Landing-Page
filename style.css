@@ -265,8 +265,14 @@
     max-width: 40px;
     
   }
-
   /* ANIMACIONES */
+
+  /* ACTIVACIÓN DESDE NAVBAR */
+html {
+  scroll-behavior: smooth;
+}
+
+
 
   /* LOGO NAVBAR  */
 
@@ -277,8 +283,6 @@
   }
 
   @keyframes palpitacion {
-    
-
     50% {
       scale: 1.05;
     }
