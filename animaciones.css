@@ -1,0 +1,54 @@
+  /* ANIMACIONES */
+
+  /* ACTIVACIÓN DESDE NAVBAR SMOOTH Y QUE EL NAVBAR NO TAPE NADA DEL BODY AL ACTIVARLO */
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+  }
+
+  /* AL PASAR EL MOUSE POR ARRIBA, SE PONE EN BLANCO  */
+  .navbar-list li a:hover {
+    color: white;
+    transition: 0.25s;
+  }
+
+
+  
+  
+  
+    /* LOGO NAVBAR  */
+  
+    .logo {
+      animation-name: palpitacion;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+  
+    @keyframes palpitacion {
+      50% {
+        scale: 1.05;
+      }
+    }
+  
+    /* BOTONES HERO  */
+  
+  .boton {
+      transition: 0.5s;
+    }
+  
+    .boton:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+  
+    /* IMAGENES DE PRODUCTOS  */
+  
+    .top {
+      transition: 0.5s;
+    }
+  
+    .top:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+

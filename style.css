@@ -13,7 +13,7 @@
     --text-white: #f8f9f9;
     --text-gray:  #A6ACAF;
   }
-
+  
   * {
     margin: 0;
     padding: 0;
@@ -27,6 +27,7 @@
   header {
     display: flex;
     width: 100%;
+    height: 46px;
     background: var(--nav-bg);
     position: fixed;
     padding: 0px 30px;
@@ -34,6 +35,7 @@
     top: 0;
     z-index: 2;
     align-items: center;
+    width: 100%;
   }
   
   .menu-icon {
@@ -105,7 +107,8 @@
     /* alineacion  */
     align-items: center;
     justify-content: center;
-    width: 100%;
+    
+    
   }
   /* Hero  */
 
@@ -265,49 +268,6 @@
     max-width: 40px;
     
   }
-  /* ANIMACIONES */
 
-  /* ACTIVACIÓN DESDE NAVBAR */
-html {
-  scroll-behavior: smooth;
-}
-
-
-
-  /* LOGO NAVBAR  */
-
-  .logo {
-    animation-name: palpitacion;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-  }
-
-  @keyframes palpitacion {
-    50% {
-      scale: 1.05;
-    }
-  }
-
-  /* BOTONES HERO  */
-
-.boton {
-    transition: 0.5s;
-  }
-
-  .boton:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-  }
-
-  /* IMAGENES DE PRODUCTOS  */
-
-  .top {
-    transition: 0.5s;
-  }
-
-  .top:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-  }
 
   

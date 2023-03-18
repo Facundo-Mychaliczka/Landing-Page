@@ -48,6 +48,10 @@ body {
     align-items: center;
 }
 
+input {
+  border-radius: 5px;
+}
+
 .login-conteiner ul {
     display: flex;
     flex-direction: column;
@@ -103,4 +107,16 @@ body {
   .img-footer {
     max-width: 40px;
     
+  }
+
+
+  /* ANIMACIONES BOTONES */
+
+  .boton {
+    transition: 0.5s;
+  }
+
+  .boton:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
   }
