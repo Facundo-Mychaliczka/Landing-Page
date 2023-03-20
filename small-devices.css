@@ -1,11 +1,5 @@
 
 @media (max-width: 577px) {
-
-    main {
-        min-width: 577px;
-        max-width: 990px;
-    }
-
     .logo {
         height: 33px;
         width: 160px;
