@@ -74,7 +74,6 @@
   }
 
   .cart-icon {
-    height: 30px;
     margin-right: 1rem;
     cursor: pointer;
   }
@@ -98,6 +97,7 @@
     display: none;
   }
 
+  /* MAIN */
   main {
     display: flex;
     background: var(--backgroung);
