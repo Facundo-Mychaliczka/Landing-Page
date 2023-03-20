@@ -35,7 +35,6 @@
     top: 0;
     z-index: 2;
     align-items: center;
-    width: 100%;
   }
   
   .menu-icon {
@@ -72,25 +71,61 @@
     color: black;
     font-size: 20px;
   }
-
+  .iconos {
+    display: flex;
+    gap: 5px;
+  }
   .cart-icon {
+    height: 30px;
     margin-right: 1rem;
     cursor: pointer;
   }
 
   #login-toggle,
-  .login-icon,
+  
   .login-nav{
     display: none;
   }
 
-  .login-pc {
+  /* MENÚ LOGIN ACCOUNT*/
+  
+.login-icon {
     height: 30px;
     cursor: pointer;
-  }
+}
 
-  /* OCULTAR HAMBURGUESA Y CHECKBOX */
+#login-toggle:checked +
+.login-nav {
+    display: flex;  
+}
 
+.login-nav{
+    position: absolute;
+    top: 46px;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    flex-direction: column;
+    background-color: var(--nav-bg);
+    border: 3px solid gray;
+    border-top: 0px;
+    border-radius: 0px 0px 15px 15px;
+    align-items: flex-start;
+    padding: 45px 30px;
+    gap: 25px;
+    z-index: 2;
+    display: none;
+    align-items: center;
+}
+
+.login-nav a {
+    color: black;
+}
+
+
+
+
+/* OCULTAR MENÚ NAVEGACION DE SMALL DEVICES */
   #menu-toggle,
   #cart-toggle,
   .menu-label {
